@@ -105,3 +105,28 @@ export const CERTIFICATIONS: Certification[] = [
     { id: "c4", title: "SQL Essentials Bootcamp (5 Days)", issuer: "Lets Upgrade", date: "April 2023" },
     { id: "c5", title: "Python Programming Essentials Bootcamp (5 Days)", issuer: "Lets Upgrade", date: "April 2023" }
 ];
+
+export interface Experience {
+    id: string;
+    role: string;
+    company: string;
+    period: string;
+    type: string;
+    bullets: string[];
+}
+
+export const EXPERIENCE: Experience[] = [
+    {
+        id: "e1",
+        role: "Sr. HOD Intern (Data Analytics)",
+        company: "Renu Sharma Foundation",
+        period: "Jan 2025 – Apr 2025",
+        type: "Internship",
+        bullets: [
+            "Extracted, cleaned, and transformed data using SQL and Excel while automating ETL processes to maintain data integrity and support KPI reporting and business analytics.",
+            "Led a team of 10–15 interns, coordinating tasks, providing guidance, and ensuring project deadlines were met.",
+            "Promoted from Data Analytics Intern to Sr. HOD Intern based on outstanding performance, leadership, and contributions to team coordination and operational efficiency.",
+            "Collaborated with cross-functional teams to collect, validate, and analyze data, delivering reports and actionable insights that supported business decision-making."
+        ]
+    }
+];

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getFeaturedProjects, getSkills, getMetrics } from "@/actions/get-data";
 
-import { DEFAULT_PROJECT, DEFAULT_SKILLS, DEFAULT_METRICS, USER_INFO, PROJECTS, CERTIFICATIONS } from "@/constants/seed-data";
+import { DEFAULT_PROJECT, DEFAULT_SKILLS, DEFAULT_METRICS, USER_INFO, PROJECTS, CERTIFICATIONS, EXPERIENCE } from "@/constants/seed-data";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -18,7 +18,8 @@ import {
   GraduationCap,
   Download,
   Mail,
-  Award
+  Award,
+  Briefcase
 } from "lucide-react";
 import { OptimizedImage } from "@/components/ui/optimized-image";
 import { Card, CardContent } from "@/components/ui/card";
@@ -215,7 +216,59 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* 6. Education */}
+      {/* 6. Experience */}
+      <section className="py-24 px-4 border-b border-border/40">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-[10px] font-bold uppercase tracking-[0.3em] text-primary mb-4">Work History</h2>
+            <h3 className="text-4xl font-black mb-6">Experience</h3>
+          </div>
+
+          <div className="space-y-10">
+            {EXPERIENCE.map((exp) => (
+              <div key={exp.id} className="relative pl-8 border-l-2 border-primary/20 hover:border-primary transition-colors duration-300 group">
+                {/* Timeline dot */}
+                <div className="absolute w-4 h-4 bg-primary rounded-full -left-[9px] top-5 shadow-[0_0_20px_rgba(var(--primary),0.5)] group-hover:scale-125 transition-transform" />
+
+                <div className="bg-sidebar/10 border border-border/50 group-hover:border-primary/20 rounded-2xl p-7 transition-all duration-300">
+                  {/* Header row */}
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-5">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary flex-shrink-0">
+                        <Briefcase className="w-5 h-5" />
+                      </div>
+                      <div>
+                        <h4 className="text-xl font-bold tracking-tight text-foreground">{exp.role}</h4>
+                        <p className="text-primary font-semibold text-sm">{exp.company}</p>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-2 flex-shrink-0">
+                      <span className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground bg-primary/5 border border-primary/10 px-3 py-1.5 rounded-full">
+                        {exp.type}
+                      </span>
+                      <span className="text-[10px] font-bold font-mono uppercase tracking-wider text-muted-foreground bg-muted/40 px-3 py-1.5 rounded-full">
+                        {exp.period}
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Bullet points */}
+                  <ul className="space-y-3">
+                    {exp.bullets.map((bullet, i) => (
+                      <li key={i} className="flex items-start gap-3 text-muted-foreground text-sm leading-relaxed group-hover:text-foreground/80 transition-colors">
+                        <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-primary/50 flex-shrink-0" />
+                        {bullet}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 7. Education */}
       <section className="py-24 px-4 border-b border-border/40 bg-sidebar/20">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-16">
