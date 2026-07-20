@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getFeaturedProjects, getSkills, getMetrics } from "@/actions/get-data";
 
-import { DEFAULT_PROJECT, DEFAULT_SKILLS, DEFAULT_METRICS, USER_INFO, PROJECTS } from "@/constants/seed-data";
+import { DEFAULT_PROJECT, DEFAULT_SKILLS, DEFAULT_METRICS, USER_INFO, PROJECTS, CERTIFICATIONS } from "@/constants/seed-data";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -17,7 +17,8 @@ import {
   Lightbulb,
   GraduationCap,
   Download,
-  Mail
+  Mail,
+  Award
 } from "lucide-react";
 import { OptimizedImage } from "@/components/ui/optimized-image";
 import { Card, CardContent } from "@/components/ui/card";
@@ -243,6 +244,36 @@ export default async function Home() {
         </div>
       </section>
 
+      {/* 7. Certifications */}
+      <section className="py-24 px-4 border-b border-border/40">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-[10px] font-bold uppercase tracking-[0.3em] text-primary mb-4">Credentials & Training</h2>
+            <h3 className="text-4xl font-black mb-6">Certifications</h3>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {CERTIFICATIONS.map((cert) => (
+              <Card key={cert.id} className="border-border/50 hover:border-primary/30 transition-all duration-300 bg-sidebar/10 hover:shadow-md hover:shadow-primary/5 group">
+                <CardContent className="p-6 flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary group-hover:scale-110 transition-transform flex-shrink-0">
+                    <Award className="w-6 h-6" />
+                  </div>
+                  <div className="space-y-1">
+                    <h5 className="font-bold text-lg leading-snug group-hover:text-primary transition-colors">{cert.title}</h5>
+                    <p className="text-primary font-medium text-sm">{cert.issuer}</p>
+                    <div className="pt-2">
+                      <span className="text-[10px] font-bold font-mono uppercase tracking-wider text-muted-foreground bg-muted/40 px-2 py-0.5 rounded">
+                        {cert.date}
+                      </span>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
 
     </main>
   );

@@ -90,3 +90,18 @@ export const USER_INFO = {
         email: "lpsishant4662@gmail.com"
     }
 };
+
+export interface Certification {
+    id: string;
+    title: string;
+    issuer: string;
+    date: string;
+}
+
+export const CERTIFICATIONS: Certification[] = [
+    { id: "c1", title: "Winter School Training Program", issuer: "IITM", date: "January 2026" },
+    { id: "c2", title: "Trainee", issuer: "DUCAT", date: "March 2025" },
+    { id: "c3", title: "Group Discussion", issuer: "CPJ", date: "January 2025" },
+    { id: "c4", title: "SQL Essentials Bootcamp (5 Days)", issuer: "Lets Upgrade", date: "April 2023" },
+    { id: "c5", title: "Python Programming Essentials Bootcamp (5 Days)", issuer: "Lets Upgrade", date: "April 2023" }
+];
