@@ -2,70 +2,64 @@
 
 ## 1. Hero Section
 - **Name**: Ishant Pathania
-- **Professional Title**: Data Analyst & Solutions Architect
-- **Tagline**: Turning complex datasets into actionable narratives. Building robust data pipelines with a focus on precision and scalability.
+- **Professional Title**: Data Analyst
+- **Tagline**: Skilled in SQL, Power BI, Python, and Excel. Transforming raw data into actionable insights to support strategic decision-making.
 
 ---
 
 ## 2. About Me
-Dedicated and detail-oriented technology enthusiast with a deep specialization in SQL and data management. With a background as a Senior HOD Intern leading teams of up to 25 people, I bridge the gap between technical data architecture and strategic leadership. Currently pursuing a Master’s in Computer Applications, I am committed to continuous learning and the development of high-impact analytical tools.
+Data Analyst skilled in SQL, Power BI, Python, and Excel with experience in data collection, cleaning, ETL automation, dashboard development, and business reporting. Passionate about identifying trends, optimizing business processes, and transforming data into actionable insights that support strategic decision-making. Pursuing a Master's in Computer Applications (MCA) with a strong foundation in database systems and analytical reporting.
 
 ---
 
 ## 3. Skills
 ### Technical Skills
-- Structured Query Language (SQL)
-- Data Retrieval & Manipulation
-- Database Management
-- Predictive Modeling Basics
-
-### Tools & Technologies
-- Microsoft Excel (Advanced Analytics)
-- Power BI (Visualization)
-- Python (Foundational Programming)
-- Microsoft Office Suite
-
-### Soft / Life Skills
-- Strategic Leadership & Team Management
-- Adaptive Problem Solving
-- Creative Thinking & Communication
-- Continuous Learning Mindset
+- SQL (MySQL)
+- Power BI (Dashboards, DAX)
+- Microsoft Excel (Pivot Tables, VLOOKUP, Data Cleaning)
+- Python (Pandas, NumPy, Matplotlib)
+- ETL
+- Data Visualization
+- KPI Reporting
 
 ---
 
 ## 4. Experience
-### Sr. HOD Intern (Data Analytics)
+### Data Analytics Internship
 **Renu Sharma Foundation** | Jan 2025 – Apr 2025
-- Orchestrated end-to-end data reporting pipelines using Excel and SQL to track key organizational metrics.
-- Provided strategic leadership to a team of 20–25 interns, ensuring high-quality data integrity and meeting strict project deadlines.
-- Promoted to Senior HOD Intern in recognition of exceptional leadership and significant contributions to team efficiency.
-
-### Event Coordinator (Leadership)
-**Independent / Professional** | Dec 2023 – Present
-- Directed full-cycle event management for corporate launches and high-profile events, managing teams of 10+ members.
-- Maximized operational efficiency by promoting cross-functional collaboration and real-time problem-solving.
-
-### Technical Trainee
-**DUCAT** | Sep 2024 – Mar 2025
-- Mastered advanced database operations, focusing on SQL for complex data retrieval and manipulation.
-- Leveraged Excel for data cleaning and the generation of actionable visual insights from raw datasets.
+- Extracted, cleaned, and transformed data using SQL and Excel while automating ETL processes to maintain data integrity and support KPI reporting and business analytics.
+- Led a team of 10–15 interns, coordinating tasks, providing guidance, and ensuring project deadlines were met.
+- Promoted from Data Analytics Intern to Sr. HOD Intern based on outstanding performance, leadership, and contributions to team coordination and operational efficiency.
+- Collaborated with cross-functional teams to collect, validate, and analyze data, delivering reports and actionable insights that supported business decision-making.
 
 ---
 
-## 5. Projects
-### Movie Industry SQL Analytics
-- Engineered a suite of SQL queries to mine historical movie industry data, identifying genre trends and rating distributions.
-- **Tools**: SQL, Database Management Systems.
-
-### Online Retailer Excel Engine
-- Developed a structured data management system to clean and analyze retail transactional data.
-- **Tools**: Microsoft Excel, Advanced Formulas, Data Visualization.
+## 5. Certificate
+- **Winter School Training Program**, IITM | January 2026
+- **Trainee**, DUCAT | March 2025
+- **Group Discussion**, CPJ | January 2025
+- **SQL Essentials Bootcamp (5 Days)**, Lets Upgrade | April 2023
+- **Python Programming Essentials Bootcamp (5 Days)**, Lets Upgrade | April 2023
 
 ---
 
-## 6. Education
+## 6. Projects
+### Movie Industry SQL Project
+- Designed and executed structured SQL queries with multi-table JOINs and subqueries to extract key business insights from the movie database.
+- Structured data retrieval queries to track box office trends, average ratings, and genre profitability across multi-year datasets.
+- Analyzed box office performance and genre profitability using SQL to identify trends and support business insights.
+- **Tools**: SQL (MySQL), Multi-table JOINs, Subqueries, Data Retrieval.
+
+### Online Retailer Excel Project
+- Analyzed retail sales data to track monthly revenue, inventory turnover, and product category trends.
+- Created automated Excel dashboards using Pivot Tables and dynamic formulas to streamline weekly management reporting.
+- **Tools**: Microsoft Excel (Pivot Tables, VLOOKUP, Data Cleaning), Dashboards.
+
+---
+
+## 7. Education
 - **Master of Computer Applications (MCA)**
-  IITM Janakpuri, Delhi | 2025 – Present
+  Institute of Information Technology and Management, Janakpuri, Delhi | 2025 – Present
 - **Bachelor of Computer Applications (BCA)**
   CPJ College of Higher Studies and School of Law, Delhi | 2022 – 2025
 - **Class XII (C.B.S.E.)**
@@ -75,7 +69,7 @@ Dedicated and detail-oriented technology enthusiast with a deep specialization i
 
 ---
 
-## 7. Contact Section
+## 8. Contact Section
 - **Email**: [lpsishant4662@gmail.com](mailto:lpsishant4662@gmail.com)
 - **GitHub**: [github.com/Ishant2362](https://github.com/Ishant2362)
 - **LinkedIn**: [linkedin.com/in/ishant-pathania-98a795274](https://www.linkedin.com/in/ishant-pathania-98a795274)

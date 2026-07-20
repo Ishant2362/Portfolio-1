@@ -50,7 +50,7 @@ export function BentoGrid({ featuredProject, topSkills, primaryMetric }: BentoGr
                             <div className="relative pl-6 border-l-2 border-primary/20 hover:border-primary transition-colors py-1">
                                 <div className="absolute w-2 h-2 bg-primary rounded-full -left-[5px] top-2 shadow-[0_0_10px_rgba(var(--primary),0.5)]" />
                                 <h3 className="text-xl font-bold tracking-tight text-foreground leading-tight">Master of Computer Applications (MCA)</h3>
-                                <p className="text-primary font-medium text-sm mt-1">IITM Janakpuri, Delhi</p>
+                                <p className="text-primary font-medium text-sm mt-1">Institute of Information Technology and Management, Janakpuri, Delhi</p>
                                 <p className="text-muted-foreground text-xs mt-2 font-mono uppercase tracking-widest bg-muted/30 inline-block px-2 py-1 rounded">2025 – Present</p>
                             </div>
 

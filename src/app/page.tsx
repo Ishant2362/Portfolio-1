@@ -74,7 +74,7 @@ export default async function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               { label: "Datasets Analyzed", value: "10K+ Rows", icon: ChartBarIcon, desc: "End-to-end cleaning & modeling" },
-              { label: "Teams Led", value: "25+ People", icon: Users2, desc: "Senior HOD leadership experience" },
+              { label: "Teams Led", value: "10-15 Interns", icon: Users2, desc: "Senior HOD leadership experience" },
               { label: "Impact Areas", value: "3 Major Projects", icon: Zap, desc: "SQL, Excel & Power BI focus" }
             ].map((stat, i) => (
               <div key={i} className="bg-sidebar/40 border border-sidebar-border p-8 rounded-3xl hover:border-primary/30 transition-all group">
@@ -188,9 +188,9 @@ export default async function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { category: "Databases & Langs", items: ["SQL (PostgreSQL, MySQL)", "Python (Pandas, NumPy)"], icon: Database },
-              { category: "Tools & BI", items: ["Power BI", "Microsoft Excel (VBA, PowerQuery)"], icon: PieChart },
-              { category: "Professional Skills", items: ["Strategic Leadership", "Data Governance", "Problem Solving"], icon: CheckCircle2 }
+              { category: "Databases & Langs", items: ["SQL (MySQL)", "Python (Pandas, NumPy, Matplotlib)"], icon: Database },
+              { category: "Tools & BI", items: ["Power BI (Dashboards, DAX)", "Microsoft Excel (Pivot Tables, VLOOKUP, Data Cleaning)"], icon: PieChart },
+              { category: "Data Methods", items: ["ETL", "Data Visualization", "KPI Reporting"], icon: CheckCircle2 }
             ].map((group, i) => (
               <Card key={i} className="border-border/50 hover:border-primary/30 transition-all overflow-hidden bg-sidebar/10">
                 <CardContent className="p-8">
@@ -224,8 +224,8 @@ export default async function Home() {
 
           <div className="space-y-12">
             {[
-              { degree: "Master of Computer Applications (MCA)", school: "IITM Janakpuri, Delhi", year: "2025 – Present" },
-              { degree: "Bachelor of Computer Applications (BCA)", school: "CPJ College of Higher Studies, Delhi", year: "2022 – 2025" },
+              { degree: "Master of Computer Applications (MCA)", school: "Institute of Information Technology and Management, Janakpuri, Delhi", year: "2025 – Present" },
+              { degree: "Bachelor of Computer Applications (BCA)", school: "CPJ College of Higher Studies and School of Law, Delhi", year: "2022 – 2025" },
               { degree: "Class XII (C.B.S.E.)", school: "Lions Public School, Delhi", year: "2021 – 2022" },
               { degree: "Class X (C.B.S.E.)", school: "Lions Public School, Delhi", year: "2019 – 2020" }
             ].map((edu, i) => (
